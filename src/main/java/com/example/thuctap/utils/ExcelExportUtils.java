@@ -29,12 +29,10 @@ public class ExcelExportUtils {
     }
 
     public void createCell(Row row,int columnCount, Object value, CellStyle style){
-        sheet.autoSizeColumn(columnCount);
+//        sheet.autoSizeColumn(columnCount);
+        int columnWidth = 3500;
+        sheet.setColumnWidth(columnCount, columnWidth);
         Cell cell = row.createCell(columnCount);
-        // LocalDateTime
-
-
-
         if (value instanceof Integer){
             cell.setCellValue((Integer) value);
         } else if (value instanceof Double) {
@@ -61,7 +59,7 @@ public class ExcelExportUtils {
         CellStyle cellStyle = workbook.createCellStyle();
         XSSFFont font = workbook.createFont();
         font.setBold(true);
-        font.setFontHeight(12);
+        font.setFontHeight(14);
         cellStyle.setFont(font);
         cellStyle.setAlignment(HorizontalAlignment.CENTER);
         createCell(row,0,"User Information",cellStyle);
@@ -88,7 +86,7 @@ public class ExcelExportUtils {
         int rowCount = 2;
         CellStyle style = workbook.createCellStyle();
         XSSFFont font = workbook.createFont();
-        font.setFontHeight(14);
+        font.setFontHeight(12);
         style.setFont(font);
         for (User userDTO : userDTOList){
             Row row = sheet.createRow(rowCount++);
