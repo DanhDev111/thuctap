@@ -1,4 +1,76 @@
-2024-03-04T08:32:39.788+07:00  WARN 11212 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d20h29m37s799ms34µs700ns).
-2024-03-04T08:45:36.816+07:00  INFO 11212 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-03-04T08:45:36.924+07:00  INFO 11212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-03-04T08:45:36.953+07:00  INFO 11212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-06T08:39:26.580+07:00  INFO 2396 --- [http-nio-8080-exec-9] com.example.thuctap.jwt.JwtTokenFilter   : null
+2024-03-06T08:39:46.020+07:00  INFO 2396 --- [http-nio-8080-exec-3] com.example.thuctap.jwt.JwtTokenFilter   : null
+2024-03-06T08:39:50.654+07:00  WARN 2396 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h9m58s285ms338µs200ns).
+2024-03-06T08:41:23.511+07:00  INFO 2396 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T08:41:23.521+07:00  INFO 2396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-06T08:41:23.530+07:00  INFO 2396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-06T08:41:30.457+07:00  INFO 19700 --- [restartedMain] com.example.thuctap.ThuctapApplication   : Starting ThuctapApplication using Java 17.0.6 with PID 19700 (F:\thuctap\target\classes started by tduca in F:\thuctap)
+2024-03-06T08:41:30.459+07:00  INFO 19700 --- [restartedMain] com.example.thuctap.ThuctapApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-03-06T08:41:30.519+07:00  INFO 19700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-06T08:41:30.519+07:00  INFO 19700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-06T08:41:31.664+07:00  INFO 19700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-06T08:41:31.731+07:00  INFO 19700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2024-03-06T08:41:32.746+07:00  INFO 19700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-06T08:41:32.760+07:00  INFO 19700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-06T08:41:32.760+07:00  INFO 19700 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-03-06T08:41:32.868+07:00  INFO 19700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-06T08:41:32.868+07:00  INFO 19700 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2348 ms
+2024-03-06T08:41:33.214+07:00  INFO 19700 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-06T08:41:33.466+07:00  INFO 19700 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.17.Final
+2024-03-06T08:41:33.474+07:00  INFO 19700 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-03-06T08:41:33.915+07:00  INFO 19700 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-06T08:41:33.943+07:00  INFO 19700 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-06T08:41:34.166+07:00  INFO 19700 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21773367
+2024-03-06T08:41:34.168+07:00  INFO 19700 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-06T08:41:34.217+07:00  WARN 19700 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-06T08:41:35.401+07:00  INFO 19700 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-06T08:41:35.532+07:00  INFO 19700 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T08:41:35.851+07:00  INFO 19700 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-06T08:41:36.559+07:00  WARN 19700 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-06T08:41:36.905+07:00  INFO 19700 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a275ee0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65a04b4a, org.springframework.security.web.context.SecurityContextHolderFilter@3300c31b, org.springframework.security.web.header.HeaderWriterFilter@2cbaa1a8, org.springframework.security.web.authentication.logout.LogoutFilter@4cf806f6, com.example.thuctap.jwt.JwtTokenFilter@8a19150, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4c0e66c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f1627fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@192957c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51632c33, org.springframework.security.web.session.SessionManagementFilter@2ddd8b14, org.springframework.security.web.access.ExceptionTranslationFilter@1093985d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72dce941]
+2024-03-06T08:41:37.264+07:00  INFO 19700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-06T08:41:37.319+07:00  INFO 19700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-06T08:41:37.332+07:00  INFO 19700 --- [restartedMain] com.example.thuctap.ThuctapApplication   : Started ThuctapApplication in 7.348 seconds (process running for 8.313)
+2024-03-06T08:41:37.378+07:00  INFO 19700 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06T08:41:37.379+07:00  INFO 19700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-06T08:41:37.380+07:00  INFO 19700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-06T08:41:37.400+07:00  INFO 19700 --- [http-nio-8080-exec-1] com.example.thuctap.jwt.JwtTokenFilter   : null
+2024-03-06T08:41:43.623+07:00  INFO 19700 --- [http-nio-8080-exec-2] com.example.thuctap.jwt.JwtTokenFilter   : null
+2024-03-06T08:42:40.878+07:00  INFO 19700 --- [http-nio-8080-exec-6] com.example.thuctap.jwt.JwtTokenFilter   : null
+2024-03-06T08:43:10.772+07:00  INFO 19700 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T08:43:10.776+07:00  INFO 19700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-06T08:43:10.780+07:00  INFO 19700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-06T08:47:34.190+07:00  INFO 15028 --- [restartedMain] com.example.thuctap.ThuctapApplication   : Starting ThuctapApplication using Java 17.0.6 with PID 15028 (F:\thuctap\target\classes started by tduca in F:\thuctap)
+2024-03-06T08:47:34.192+07:00  INFO 15028 --- [restartedMain] com.example.thuctap.ThuctapApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-03-06T08:47:34.253+07:00  INFO 15028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-06T08:47:34.253+07:00  INFO 15028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-06T08:47:35.202+07:00  INFO 15028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-06T08:47:35.271+07:00  INFO 15028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2024-03-06T08:47:36.004+07:00  INFO 15028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-06T08:47:36.014+07:00  INFO 15028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-06T08:47:36.014+07:00  INFO 15028 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-03-06T08:47:36.072+07:00  INFO 15028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-06T08:47:36.072+07:00  INFO 15028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1819 ms
+2024-03-06T08:47:36.212+07:00  INFO 15028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-06T08:47:36.278+07:00  INFO 15028 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.17.Final
+2024-03-06T08:47:36.282+07:00  INFO 15028 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-03-06T08:47:36.577+07:00  INFO 15028 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-06T08:47:36.672+07:00  INFO 15028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-06T08:47:36.963+07:00  INFO 15028 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9069b52
+2024-03-06T08:47:36.966+07:00  INFO 15028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-06T08:47:37.037+07:00  WARN 15028 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-06T08:47:38.284+07:00  INFO 15028 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-06T08:47:38.441+07:00  INFO 15028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T08:47:38.679+07:00  INFO 15028 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-06T08:47:39.354+07:00  WARN 15028 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-06T08:47:39.683+07:00  INFO 15028 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@635936cd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fa54dc8, org.springframework.security.web.context.SecurityContextHolderFilter@150f853f, org.springframework.security.web.header.HeaderWriterFilter@3c152a69, org.springframework.security.web.authentication.logout.LogoutFilter@3f00b1c9, com.example.thuctap.jwt.JwtTokenFilter@43808f93, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d6c3f99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7fd673c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53c4b679, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b84408d, org.springframework.security.web.session.SessionManagementFilter@5e95d4c2, org.springframework.security.web.access.ExceptionTranslationFilter@1f1627fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51632c33]
+2024-03-06T08:47:40.042+07:00  INFO 15028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-06T08:47:40.073+07:00  INFO 15028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-06T08:47:40.089+07:00  INFO 15028 --- [restartedMain] com.example.thuctap.ThuctapApplication   : Started ThuctapApplication in 6.329 seconds (process running for 7.156)
+2024-03-06T08:48:22.358+07:00  INFO 15028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06T08:48:22.358+07:00  INFO 15028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-06T08:48:22.359+07:00  INFO 15028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-06T08:48:22.388+07:00  INFO 15028 --- [http-nio-8080-exec-1] com.example.thuctap.jwt.JwtTokenFilter   : null
+2024-03-06T08:48:36.446+07:00  INFO 15028 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-06T08:48:36.462+07:00  INFO 15028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-06T08:48:36.462+07:00  INFO 15028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

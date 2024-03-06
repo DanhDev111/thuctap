@@ -15,4 +15,5 @@ public interface UserService {
 
     PageDTO<UserDTO> searchByNameOrUserName(SearchDTO searchDTO);
     public UserDTO findByUsername(String username);
+
 }
